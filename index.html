@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田径项目介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0052cc, #007bff);
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .card-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+        }
+        .card h3 {
+            color: #0052cc;
+            margin-bottom: 12px;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            background-color: #222;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>田径运动项目介绍</h1>
+        <p>田径——运动之母，挑战速度、力量与耐力</p >
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>田径运动简介</h2>
+            <p>田径被誉为“运动之母”，是奥运会历史最悠久的大项，分为**田赛、径赛、全能**三大类。径赛以跑为核心，比拼速度与耐力；田赛以跳、投为主，比拼力量与爆发力；全能项目综合多项田径能力。田径是所有体育运动的基础。</p >
+        </section>
+
+        <div class="card-group">
+            <div class="card">
+                <h3>径赛项目</h3>
+                <p>径赛是在跑道上进行的跑步项目，依靠计时判定成绩。</p >
+                <ul>
+                    <li>短跑：100m、200m、400m，比拼爆发力</li>
+                    <li>中长跑：800m、1500m，兼顾速度与耐力</li>
+                    <li>长跑：5000m、10000m，考验持久耐力</li>
+                    <li>跨栏：110米栏、400米栏</li>
+                    <li>接力赛：4×100m、4×400m团队项目</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>田赛项目</h3>
+                <p>田赛分为跳跃、投掷两类，以距离、高度判定胜负。</p >
+                <ul>
+                    <li>跳跃：跳高、跳远、三级跳远、撑杆跳高</li>
+                    <li>投掷：铅球、铁饼、标枪、链球</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>全能项目</h3>
+                <p>全能是综合型比赛，运动员需要完成多个田径小项，累加总分排名。</p >
+                <ul>
+                    <li>男子十项全能：100米、跳远、铅球、跳高、400米、110米栏、铁饼、撑杆跳高、标枪、1500米</li>
+                    <li>女子七项全能：100米栏、跳高、铅球、200米、跳远、标枪、800米</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>田径项目介绍网页 © 2026</p >
+    </footer>
+</body>
+</html>
